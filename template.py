@@ -19,7 +19,8 @@ list_of_files = [
     'app.py',
     'dockerfile',
     'requirements.txt',
-    'setup.py'
+    'setup.py',
+    'notebook'
 
 ]
 
