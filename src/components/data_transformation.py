@@ -6,7 +6,7 @@ import numpy as np
 
 from src.logger import logging
 from src.exception import CustomException
-from src.utils import save_obj
+from src.utils import save_object
 
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
@@ -97,7 +97,7 @@ class DataTransformation:
 
             logging.info('saved preprocessing object')
 
-            save_obj(
+            save_object(
                 file_path = self.data_transformation_config.preprocessor_obj_file_path,
                 obj = preprocessor_obj
             )
